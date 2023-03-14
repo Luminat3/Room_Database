@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:id="@+id/create_tv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Tittle"
+        android:textColor="@color/black"
+        android:layout_below="@id/create_tv"
+        android:id="@+id/title_tv"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_tv"
+        android:id="@+id/tittle_et"
+        android:hint="Title"
+        android:inputType="text"
+        android:gravity="top|start"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Detail"
+        android:textColor="@color/black"
+        android:layout_below="@id/tittle_et"
+        android:id="@+id/detail_tv"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_tv"
+        android:id="@+id/detail_et"
+        android:hint="Detail"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Plan"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:id="@+id/bt_save"
+        />
+</RelativeLayout>

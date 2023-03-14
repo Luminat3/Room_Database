@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Room_Database</string>
+    <string-array name="dialog_option">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>
